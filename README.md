@@ -666,5 +666,11 @@ um Texte zu erstellen und in der Browser-Konsole auszugeben.
 - Mit `console.log()` habe ich die Ergebnisse in der Browser-Konsole überprüft.
 
 
+## Functions
 
+In diesem Kapitel arbeite ich mit Funktionen in JavaScript. Eine Funktion ist ein wiederverwendbarer Codeblock, der eine bestimmte Aufgabe ausführt. Eine Funktion kann Parameter bekommen, mit diesen Werten arbeiten und ein Ergebnis mit `return` zurückgeben.
+
+Bei den Functions-Aufgaben bearbeite ich nur E1, E2 und E3. Die Aufgaben E4, E5, E6 und E7 gehören laut Aufgabenstellung nicht zur Hausübung.
+
+Den Code zu den Functions-Aufgaben schreibe ich in `src/main.js`. Mit `console.log()` teste ich die Ergebnisse in der Browser-Konsole.
 
