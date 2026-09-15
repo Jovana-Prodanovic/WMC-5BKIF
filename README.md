@@ -657,15 +657,14 @@ if (Number.isNaN(number)) {
 ## Strings
 
 
-Bei den String-Aufgaben habe ich unterschiedliche Möglichkeiten verwendet, um Texte zu erstellen und auszugeben.
+Bei den String-Aufgaben habe ich verschiedene Möglichkeiten verwendet,
+um Texte zu erstellen und in der Browser-Konsole auszugeben.
 
-Bei E1 habe ich String Concatenation mit dem Operator `+` verwendet.
+- Bei E1 habe ich die String-Konkatenation mit dem Operator `+` verwendet.
+- Bei E2 habe ich ein Template Literal mit Backticks und der Syntax `${name}` verwendet.
+- Bei E3 habe ich einen japanischen String verwendet und seine Länge mit der Eigenschaft `.length` überprüft.
+- Mit `console.log()` habe ich die Ergebnisse in der Browser-Konsole überprüft.
 
-Bei E2 habe ich ein Template Literal mit Backticks und `${name}` verwendet.
-
-Bei E3 habe ich einen japanischen String verwendet und mit `.length` die Anzahl der Zeichen geprüft.
-
-Mit `console.log()` kontrolliere ich die Ergebnisse in der Browser-Konsole.
 
 
 
