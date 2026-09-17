@@ -674,3 +674,74 @@ Bei den Functions-Aufgaben bearbeite ich nur E1, E2 und E3. Die Aufgaben E4, E5,
 
 Den Code zu den Functions-Aufgaben schreibe ich in `src/main.js`. Mit `console.log()` teste ich die Ergebnisse in der Browser-Konsole.
 
+## Objects
+
+### E1 – Person Object
+
+Bei E1 habe ich ein Objekt mit dem Namen `person` erstellt. Das Objekt speichert Informationen über eine Person.
+
+Die Property `name` enthält meinen Namen als String. Die Property `age` enthält mein Alter als Number-Wert. Die Property `isStudent` enthält den Boolean-Wert `true`.
+
+Mit `console.log(person)` gebe ich das ganze Objekt in der Browser-Konsole aus. So überprüfe ich, ob alle Properties richtig gespeichert sind.
+
+### E2 – Game Object
+
+Bei E2 habe ich ein Objekt mit dem Namen `game` erstellt. Das Objekt speichert Informationen über einen Spieler in einem Spiel.
+
+Die Property `playerName` enthält den Namen des Spielers als String. Die Properties `score` und `rank` enthalten Number-Werte. Die Property `isAlive` ist ein Boolean-Wert und zeigt, ob der Spieler noch aktiv ist.
+
+Mit `console.log(game)` gebe ich das ganze Objekt in der Browser-Konsole aus und überprüfe die gespeicherten Werte.
+
+### E3 – Game Methods
+
+Bei E3 habe ich dem Objekt `game` zwei Methoden hinzugefügt: `updateScore` und `reset`.
+
+Die Methode `updateScore(newScore)` bekommt einen neuen Score als Parameter. Mit `this.score = newScore` ändere ich die Property `score` im Objekt `game`. Das Wort `this` bezieht sich hier auf das aktuelle Objekt `game`.
+
+Die Methode `reset()` hat keine Parameter. Sie setzt die Properties `score`, `rank` und `isAlive` wieder auf ihre Standardwerte zurück. Der Score wird wieder `0`, der Rank wieder `1` und `isAlive` wieder `true`.
+
+Zuerst teste ich die Methode `updateScore` mit der Zahl `150`. Danach überprüfe ich in der Browser-Konsole, ob der Score auf `150` geändert wurde.
+
+Danach teste ich die Methode `reset`. Ich überprüfe in der Browser-Konsole, ob der Score wieder `0`, der Rank wieder `1` und `isAlive` wieder `true` ist.
+
+### E4 – Create Person Function
+
+Bei E4 habe ich die Funktion `createPerson(name, age)` erstellt. Die Funktion bekommt zwei Parameter: einen Namen und ein Alter.
+
+Zuerst prüfe ich mit `typeof`, ob `name` ein String und `age` ein Number-Wert ist. Wenn mindestens einer der beiden Werte nicht den richtigen Datentyp hat, gibt die Funktion `null` zurück.
+
+Wenn beide Datentypen richtig sind, erstellt die Funktion ein neues Personenobjekt. Das Objekt hat die Properties `name` und `age`. Die Werte kommen aus den Parametern der Funktion.
+
+Beim ersten Test verwende ich den String `"John"` und die Zahl `25`. Die Datentypen sind richtig, deshalb gibt die Funktion ein Personenobjekt zurück.
+
+Beim zweiten Test sind die Werte vertauscht. Die Zahl `25` ist kein String und `"John"` ist keine Zahl. Deshalb gibt die Funktion `null` zurück.
+
+## Arrays
+
+### E1 – Numbers Array
+
+Bei E1 habe ich ein Array mit dem Namen `numbers` erstellt. Das Array enthält die fünf Number-Werte `1`, `2`, `3`, `4` und `5`.
+
+Ein Array speichert mehrere Werte in einer Variablen. Die Werte werden in eckigen Klammern geschrieben und mit Kommas getrennt.
+
+Mit `console.log(numbers)` gebe ich das ganze Array in der Browser-Konsole aus. So überprüfe ich, ob alle fünf Zahlen richtig gespeichert sind.
+
+### E2 – Add a Number to the Array
+
+Bei E2 füge ich die Zahl `6` am Ende des Arrays `numbers` hinzu. Dafür verwende ich die Array-Methode `push()`.
+
+Vorher enthält das Array die Werte `1`, `2`, `3`, `4` und `5`. Nach `numbers.push(6)` enthält das Array auch die Zahl `6` am Ende.
+
+Mit `console.log(numbers)` überprüfe ich in der Browser-Konsole, ob das Array danach die Werte `1`, `2`, `3`, `4`, `5` und `6` enthält.
+
+### E3 – Sum Function
+
+Bei E3 habe ich die Funktion `sum(numbers)` erstellt. Die Funktion bekommt ein Array mit Number-Werten als Parameter und berechnet die Summe aller Zahlen im Array.
+
+Zuerst beginnt die Gesamtsumme mit dem Wert `0`. Danach geht eine `for...of`-Schleife durch alle Elemente des Arrays. Jede Zahl wird zur bisherigen Summe addiert.
+
+Am Ende gibt die Funktion die fertige Summe mit `return` zurück.
+
+Beim ersten Test verwende ich das Array `numbers`. Nachdem die Zahl `6` hinzugefügt wurde, ist die Summe aller Werte `21`.
+
+Beim zweiten Test verwende ich ein leeres Array. Weil das Array keine Elemente enthält, wird keine Zahl addiert. Deshalb ist das Ergebnis `0`.
