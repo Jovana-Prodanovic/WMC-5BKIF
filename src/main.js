@@ -1,3 +1,5 @@
+import "./practice.js";
+
 // ========================================
 // Strings – E1: String Concatenation
 // ========================================
@@ -165,4 +167,3 @@ console.log(numbers);
  console.log(sum([]));
 
  
-
