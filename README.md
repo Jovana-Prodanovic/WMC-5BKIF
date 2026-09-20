@@ -745,3 +745,50 @@ Am Ende gibt die Funktion die fertige Summe mit `return` zurück.
 Beim ersten Test verwende ich das Array `numbers`. Nachdem die Zahl `6` hinzugefügt wurde, ist die Summe aller Werte `21`.
 
 Beim zweiten Test verwende ich ein leeres Array. Weil das Array keine Elemente enthält, wird keine Zahl addiert. Deshalb ist das Ergebnis `0`.
+
+
+## Functions E4–E7
+
+### E4 – Calculate Function
+
+Ich habe eine Funktion `calculate(number1, number2, operation)` erstellt.
+
+Die Funktion überprüft zuerst, ob beide Werte Numbers sind. Danach berechnet sie das Ergebnis abhängig von der ausgewählten Operation.
+
+Folgende Operationen werden unterstützt:
+
+- `add`
+- `subtract`
+- `multiply`
+- `divide`
+
+Wenn die Operation ungültig ist oder einer der Werte keine Number ist, gibt die Funktion `null` zurück.
+
+### E5 – Get Number From User
+
+Ich habe eine Funktion `getNumberFromUser()` erstellt.
+
+Die Funktion verwendet `prompt()`, um den Benutzer nach einer Zahl zu fragen. Die Eingabe wird mit `Number()` von einem String in eine Number umgewandelt.
+
+Wenn die Eingabe keine gültige Zahl ist, gibt die Funktion `null` zurück.
+
+### E6 – Get Number From User with Loop
+
+Ich habe die Funktion `getNumberFromUser()` mit einer `while`-Schleife erweitert.
+
+Die Funktion fragt den Benutzer so lange nach einer Zahl, bis eine gültige Zahl eingegeben wird. Wenn der Benutzer eine gültige Zahl eingibt, gibt die Funktion diese Zahl zurück.
+
+### E7 – Simple Calculator
+
+Ich habe die Funktionen `calculate()` und `getNumberFromUser()` kombiniert, um einen einfachen Taschenrechner zu erstellen.
+
+Der Taschenrechner:
+
+- fragt den Benutzer nach einer Operation;
+- fragt den Benutzer nach zwei gültigen Zahlen;
+- berechnet das Ergebnis;
+- gibt das Ergebnis in der Browser Console aus;
+- läuft weiter, bis der Benutzer `exit` eingibt.
+
+Der Taschenrechner unterstützt die Operationen `add`, `subtract`, `multiply` und `divide`.
+
